@@ -1,0 +1,6 @@
+# Deny direct access to all files inside this directory
+Order Deny,Allow
+Deny from all
+
+# Disable directory listing
+Options -Indexes
