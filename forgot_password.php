@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $token = "";
                 $twilio_number = "";
 
-                $url = "https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json";
+                $url = "";
                 $data = [
                     'To' => $phone,
                     'From' => $twilio_number,
